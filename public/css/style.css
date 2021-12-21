@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('/fonts/Vazir.eot');
+    src: url('/fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Vazir.ttf') format('truetype'),
+         url('/fonts/Vazir.woff') format('woff'),
+         url('/fonts/Vazir.woff2') format('woff2');
+}
+
+body{
+    font-family: "vazir" !important;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    font-weight: bold;
+    color: #333;
+}
+
+
+.w-85{
+    width: 85%;
+}
+
+
+
+/* Utilities */
+.text-dark-blue{
+    color: #1a2b4e;
+}
+.bg-dark-blue{
+    background: #1a2b4e;
+    color: white !important;
+    border: none;
+}
+
+.bottom-line{
+    width: 10%;
+    display: inline-block;
+    color: #0d6efd;
+}
+
+
+
+
+/* icon */
+.icon{
+    background: #ebeafb;
+    color: #0d6efd;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.icon-orginal{
+    background: #ebeafb;
+    color: #1a2b4e;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/*
+    
+    
+*/
+.inputfile {
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    color: #1a2b4e;
+    display: inline-block;
+    cursor: pointer; 
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    color: #13213d;
+}
+
+
+
+/* font */
+.fs-7{
+    font-size: 0.9rem;
+}
+
+
+/* btn */
+.btn-custom{
+    background: #1a2b4e;
+    color: white;
+    border-color: #1a2b4e;
+}
+.btn-custom:hover{
+    background: #13213d;
+    color: #fff;
+    font-weight: normal !important;
+}
+
+.btn-outline-custom{
+    background: white;
+    color: #1a2b4e;
+    border-color: #1a2b4e;
+}
+.btn-outline-custom:hover{
+    background: #1a2b4e;
+    color: white;
+    font-weight: normal !important;
+}
+
+.btn-custom-card-edit{
+    border-radius: 0 0 0.25rem 0.25rem !important;
+    line-height:1.7rem;
+}
+/*#problem-section .card button:hover{
+    background: #13213d;
+    color: #fff !important;
+}*/
+
+
+
+/* footer */
+.footer-header{
+    border-bottom: 3px solid;
+    height: 35px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-link:hover{
+    text-decoration: none;
+    color: black;
+}
+
